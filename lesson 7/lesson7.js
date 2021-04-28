@@ -4,11 +4,11 @@ const firstname = "Alex",
  console.log(`Hello ${firstname} ${lastname}`);     
 
 
- const obj = {
+ const objj = {
      a: 50
  };
 
- obj.a = 25;
+ objj.a = 25;
 
  console.log(obj);
 
