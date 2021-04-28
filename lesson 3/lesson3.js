@@ -49,14 +49,6 @@ console.log($personee.name);
 // console.log($personee["age"]);
 
 
-
-
-
-
-
-
-
-
 // a = 15; 
 // console.log(a);
 
@@ -86,7 +78,7 @@ var name = "Ivan";  //Хостинг, или всплытие переменны
 //     let result = 50;
 // }
 
-// console.log(result);  //прелесть такого подхода - пока мне не понятен и отличается такой особенностью
+// console.log(result);  //прелесть такого подхода - пока мне не понятен но отличается такой особенностью
 
 // {
 //     var result = 50;

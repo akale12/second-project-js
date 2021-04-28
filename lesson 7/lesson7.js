@@ -30,3 +30,9 @@ const firstname = "Alex",
  const game = 'DBD';
 
  console.log(game);
+
+
+ const testChecked = true,
+        testClose = false;
+ 
+console.log(testChecked || testClose);
