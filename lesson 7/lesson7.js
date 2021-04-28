@@ -11,3 +11,8 @@ const firstname = "Alex",
  obj.a = 25;
 
  console.log(obj);
+
+
+ const category = "toys";
+
+ console.log(`https://someurl.com/${category}`);
