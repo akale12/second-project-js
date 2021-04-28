@@ -42,11 +42,6 @@ console.log(arr[1]);
 
 
 
-
-
-
-
-
 // a = 15; 
 // console.log(a);
 
