@@ -16,3 +16,12 @@ const firstname = "Alex",
  const category = "toys";
 
  console.log(`https://someurl.com/${category}`);
+
+
+ const answers = [];
+
+ answers[0] = prompt("Как вас зовут?");
+ answers[1] = prompt("Какое у вас фамилие?");
+ answers[2] = prompt("Сколько вам лет?");
+
+ console.log(answers);
