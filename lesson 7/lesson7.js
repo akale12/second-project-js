@@ -25,3 +25,8 @@ const firstname = "Alex",
  answers[2] = prompt("Сколько вам лет?");
 
  console.log(answers);
+
+
+ const game = 'DBD';
+
+ console.log(game);
