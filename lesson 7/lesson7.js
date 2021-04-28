@@ -10,7 +10,7 @@ const firstname = "Alex",
 
  objj.a = 25;
 
- console.log(obj);
+ console.log(objj);
 
 
  const category = "toys";
