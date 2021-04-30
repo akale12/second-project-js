@@ -33,6 +33,6 @@ const firstname = "Alex",
 
 
  const testChecked = true,
-        testClose = false;
+        testClose = true;
  
-console.log(testChecked || testClose);
+console.log(testChecked && testClose);
