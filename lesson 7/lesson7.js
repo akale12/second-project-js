@@ -32,7 +32,8 @@ const firstname = "Alex",
  console.log(game);
 
 
- const testChecked = true,
-        testClose = true;
- 
-console.log(testChecked && testClose);
+const testChecked = true,
+      testClose = false;
+
+      
+console.log(testChecked || testClose);     
