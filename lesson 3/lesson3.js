@@ -70,6 +70,28 @@ console.log(obj);
 // leftBorderWidth = 10;
 
 
+
+const testforme = 2 * 2;
+
+switch (testforme) {
+    case 43:
+        console.log('Это правильное решение');
+        break;
+
+    case 5:
+        console.log('Это невереное решение');    
+        break;
+
+    case 6:
+        console.log('Это тоже неверное решение');
+        break;
+    
+    default:
+        console.log('В данной задаче, нет правильного решения');
+        break;
+}   
+
+
 console.log(name);
 var name = "Ivan";  //Хостинг, или всплытие переменных
 
