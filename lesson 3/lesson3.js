@@ -92,8 +92,34 @@ switch (testforme) {
 }   
 
 
+const num = 100;
+
+switch (num) {
+    case 100:
+        console.log('its right');
+        break;
+    
+    case 200:
+        console.log('its dont right');
+        break;
+
+    case 300:
+        console.log('its dont right too');
+        break;
+        
+    default:
+        console.log('nothing dont right');
+        break;    
+}
+
 console.log(name);
 var name = "Ivan";  //Хостинг, или всплытие переменных
+
+
+const isChecked = true,
+       isClose = true;
+       
+console.log(isChecked && isClose);
 
 
 // {
