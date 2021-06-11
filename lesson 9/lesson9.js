@@ -59,6 +59,10 @@ switch (numm) {
         break;          
 }
 
+const persone = "Alex",
+      lastname = "Lampard";  
+
+console.log(`Hello ${persone} ${lastname}`);
 
 
 // const num = 50;
