@@ -81,3 +81,87 @@ for (let i = 1; i < 15; i++) {
     }
         console.log(i);
 }
+
+if (50 > 220) {
+    console.log('верно'); 
+} else {
+    console.log('не верно');
+}
+
+
+let task = 5+5;
+
+ switch (task) {
+     case 10:
+         console.log('верно');
+         break;
+
+    case 20: 
+        console.log('не верно');
+        break;
+    
+    case 30: 
+        console.log('тоже неверно');
+        break;
+     
+     default: 
+        console.log('в данном примере нет правильного ответа');   
+ }   
+
+
+
+ for (let i = 1; i < 10; i++) {
+     if (i === 5 ) {
+         continue;
+     }
+        console.log(i);
+ }
+
+ let taskTwo = 10-5;
+
+ switch (taskTwo) {
+       case 5: 
+            console.log('its right');
+            break;
+            
+        case 10:
+            console.log('dont right');
+            break;
+            
+        case 20:
+            console.log('its dont right too');
+            break;
+            
+        default:
+            console.log('nothing');
+            break;    
+ }
+
+
+ for (let i = 1; i < 10; i++) {
+     if (i === 5) {
+            break;
+     }
+        console.log(i);
+ }
+
+
+ const test = 3+3;
+
+ switch (test) {
+     case 6: 
+         console.log('верно');
+         break;
+
+     case 7: 
+        console.log('неверно');
+        break;
+
+    case 8: 
+        console.log('тоже неверно');
+        break;
+
+    default:
+        console.log('ничего нету');
+        break;
+ }
