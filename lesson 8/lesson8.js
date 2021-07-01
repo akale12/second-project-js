@@ -23,3 +23,26 @@ console.log(personalMovieDB);
 
 
 
+const task = 5 + 5;
+
+
+switch (task) {
+   case 8: 
+      console.log('Это неверно');
+      break;
+
+    case 9: 
+      console.log('Это тоже неверно');
+      break;
+      
+   case 10: 
+      console.log('Это верно');
+      break; 
+
+   default: 
+      console.log('В данном примере нету ответа');
+      break      
+}
+
+
+

@@ -28,7 +28,7 @@ for (let i = 1; i < 10; i++) {
 let numTwo = 100;
 
 
-while (numTwo < 105) {
+while (numTwo > 105) {
     console.log(numTwo);
     numTwo++;
 }
@@ -165,3 +165,75 @@ let task = 5+5;
         console.log('ничего нету');
         break;
  }
+
+
+
+ const isChecked = true,
+       isClose = false;
+       
+console.log(isChecked && isClose);       
+
+
+if ( 100 > 50) {
+    console.log('its right');
+} else {
+     console.log('dont right');   
+}
+
+const num$ = 200;
+
+
+if(num$ > 49) {
+    console.log('Error');
+}  else if (num$ > 100) {
+    console.log('Много');
+} else {
+    console.log('ok!');
+}
+
+// (num$ === 50) ? console.log('ok!') :  console.log('Error');
+
+
+const num$$ = 50;
+
+if (num$$ < 49) {
+    console.log('Error');
+} else if (num$$ > 55) {
+     console.log('A lot');   
+} else {
+    console.log('right');
+}
+
+
+const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
+
+const personalMovieDB  = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false 
+};
+
+for (let i = 0; i < 2; i++) {
+    const firstQuestion = prompt('Один из последних просмотренных фильмов?', ''),
+    secondQuestion = prompt('На сколько оцените его?', '');
+
+    if (firstQuestion != null && secondQuestion != null && firstQuestion != '' && secondQuestion != '' && firstQuestion.length <50) {
+        personalMovieDB.movies[firstQuestion] = secondQuestion;
+        console.log('done');
+    } else {
+        console.log('error');
+    }
+}
+
+
+if (personalMovieDB.count < 10) {
+    console.log('Просмотрено довольно мало фильмов');
+} else if (personalMovieDB.count <=10 && personalMovieDB.count < 30) {
+    console.log('Вы классический зритель');
+} else if (personalMovieDB >= 30) {
+    console.log('Вы киноман');
+} else {
+    console.log('Ошибка');
+}
