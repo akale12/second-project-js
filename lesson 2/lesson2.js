@@ -87,3 +87,16 @@ for (let i = 0; i < 2; i++) {
         console.log('Ошибка');
     }
 }
+
+
+const isChecked = true,
+      isClose = false;
+ 
+console.log(isChecked || isChecked);      
+
+
+
+const $bektiki = 'toys';
+
+console.log(`https:/someurl.com/${$bektiki}`);
+      
